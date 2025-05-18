@@ -1,2 +1,1 @@
-"# XScript-Code" 
-"# XScript-Code" 
+# XScript-Code
