@@ -1,4 +1,4 @@
-{@type:filter|@guid:a794b687133d414d8316ce994b595894}
+{@type:filter}
 //週線選股排除法
 SETBARFreq("AW");
 SETTOTALBar(3);
