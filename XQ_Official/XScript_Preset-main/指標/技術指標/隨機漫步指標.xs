@@ -1,6 +1,6 @@
 {@type:indicator}
 
-input:length(10);		setinputname(1, "天期");   
+input:length(10, "天期");   
 
 variable:RWIH(0),RWIL(0);   
 

@@ -1,5 +1,5 @@
 {@type:indicator}
-input: length(5);	setinputname(1, "天期");
+input: length(5, "天期");
 
 Value1 = high - close;   
 Value2 = close - low; 

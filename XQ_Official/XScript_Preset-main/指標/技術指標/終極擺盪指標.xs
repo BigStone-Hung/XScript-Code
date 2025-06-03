@@ -1,8 +1,8 @@
 {@type:indicator}
 
-input:length1(7);		setinputname(1, "天期一");
-input:length2(14);		setinputname(2, "天期二");
-input:length3(28);   	setinputname(3, "天期三");
+input:length1(7, "天期一");
+input:length2(14, "天期二");
+input:length3(28, "天期三");
 
 variable : ruo(0),uo(0),bp(0);  
 
