@@ -1,6 +1,6 @@
 {@type:indicator}
-input: length(23);		setinputname(1, "天期");
-input: period(8);		setinputname(2, "平均");
+input: length(23, "天期");
+input: period(8, "平均");
 
 variable:DTM(0),DBM(0),STM(0),SBM(0),ADTM(0),ADTMMA(0);
 

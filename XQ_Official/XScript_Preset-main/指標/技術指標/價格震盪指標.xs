@@ -1,6 +1,6 @@
 {@type:indicator}
-input: length1(5);	setinputname(1, "短天期");
-input: length2(20);	setinputname(2, "長天期");
+input: length1(5, "短天期");
+input: length2(20, "長天期");
 
 value1 = average(close, length1);
 value2 = average(close, length2);

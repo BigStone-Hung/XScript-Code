@@ -1,9 +1,7 @@
 {@type:indicator}
 // Elder 空頭力道指標
 //
-input: Length(13);
-
-SetInputName(1, "天數");
+input: Length(13, "天數");
 
 Value1 = Low - XAverage(Close, Length);
 

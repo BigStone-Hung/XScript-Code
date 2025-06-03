@@ -1,11 +1,8 @@
 {@type:indicator}
 // Chaikin Volatility 指標
 //
-input: Length(10), LengthROC(12);
+input: Length(10, "天數一"), LengthROC(12, "天數二");
 variable: _chaikin(0);
-
-SetInputName(1, "天數一");
-SetInputName(2, "天數二");
 
 Value1 = XAverage(High - Low, Length);
 

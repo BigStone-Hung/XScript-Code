@@ -1,5 +1,5 @@
 {@type:indicator}
-input:length(25); setinputname(1, "計算週期");
+input:length(25, "計算週期");
    
 variable: aroon_up(0), aroon_down(0), aroon_oscillator(0);   
 

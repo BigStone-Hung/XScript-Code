@@ -1,5 +1,5 @@
 {@type:indicator}
-input:length(10);		setinputname(1, "天期");
+input:length(10, "天期");
    
 variable:up(0),dn(0),upi(0),dni(0),imi(0);   
 

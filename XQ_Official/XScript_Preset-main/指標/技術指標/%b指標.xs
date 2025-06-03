@@ -1,7 +1,7 @@
 {@type:indicator}
-input: Length(20);	SetInputName(1, "布林通道天數");
-input: BandRange(2);SetInputName(2, "上下寬度");
-input: MALength(10);SetInputName(3, "MA天期");
+input: Length(20, "布林通道天數");
+input: BandRange(2, "上下寬度");
+input: MALength(10, "MA天期");
 
 variable: up(0), down(0), mid(0);
 
