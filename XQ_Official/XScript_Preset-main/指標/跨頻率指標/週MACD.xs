@@ -5,11 +5,7 @@
 //
 if barfreq <> "Tick" and barfreq <> "Min" and barfreq <> "D" and barfreq <> "W" and barfreq <> "AD" and barfreq <> "AW" then raiseruntimeerror("不支援大頻率跨小頻率");
 
-input: FastLength(12), SlowLength(26), MACDLength(9);
-
-SetInputName(1, "DIF短天數");
-SetInputName(2, "DIF長天數");
-SetInputName(3, "MACD天數");
+input: FastLength(12, "DIF短天數"), SlowLength(26, "DIF長天數"), MACDLength(9, "MACD天數");
 
 xf_macd("W",xf_weightedclose("W"),FastLength,SlowLength,MACDLength,value1,value2,value3);
 

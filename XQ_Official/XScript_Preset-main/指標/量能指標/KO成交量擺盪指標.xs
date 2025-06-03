@@ -1,7 +1,7 @@
 {@type:indicator}
-Input: length1(34);	setinputname(1, "短天期");
-Input: length2(55);	setinputname(2, "長天期");
-Input: length3(13);	setinputname(3, "平均天期");
+Input: length1(34, "短天期");
+Input: length2(55, "長天期");
+Input: length3(13, "平均天期");
 
 variable: kovolume(0), tp(0), ko(0), koaverage(0);   
 
