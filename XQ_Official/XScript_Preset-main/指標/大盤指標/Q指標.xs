@@ -1,7 +1,7 @@
 {@type:indicator}
-input:t1(10);	setinputname(1,"天期");
-input:t2(5);	setinputname(2,"平均天期");
-input:t3(20);	setinputname(3,"雜訊平滑天期");
+input:t1(10,"天期");
+input:t2(5,"平均天期");
+input:t3(20,"雜訊平滑天期");
 
 
 value1=close-close[1];			//價格變化
