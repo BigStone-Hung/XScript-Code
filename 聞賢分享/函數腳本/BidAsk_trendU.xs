@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:e3ca1bfd773040b3af2450e5ec0e8c7b}
+{@type:function_bool}
 SetBarMode(1);// XQ: 外盤動能趨勢(5)
 input:length(numeric);
 input:length1(numeric);

@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:7d8983dbe731443780dd5b8321741572}
+{@type:function_bool}
 SetBarMode(1);// XQ: baseline(26)
 
 input: Length(numeric);

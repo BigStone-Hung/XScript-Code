@@ -1,4 +1,4 @@
-{@type:function|@guid:6086ea1a15fa46f18e34a8da611f7971}
+{@type:function}
 SetBarMode(1);//bb_width(close,20,2)
 input:price(numeric);
 input:length(numeric);

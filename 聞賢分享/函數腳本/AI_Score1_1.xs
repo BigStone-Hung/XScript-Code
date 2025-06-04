@@ -1,4 +1,4 @@
-{@type:function|@guid:f763be2905c3426a96049ce19d14ed74}
+{@type:function}
 SetBarMode(1);// XQ: sar20
 
 variable: count(0),rsv(0),k(0), _d(0), j(0);

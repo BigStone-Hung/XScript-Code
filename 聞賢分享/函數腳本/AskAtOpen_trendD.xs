@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:7a83fd7cf73c4175a8a4ae8e9eec002a}
+{@type:function_bool}
 SetBarMode(1);//pcratio_trend (5)
 input:length(numeric);
 

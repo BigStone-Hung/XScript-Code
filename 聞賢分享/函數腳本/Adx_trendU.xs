@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:8c1aaccf52f4436f80d7f0ad7edcf398}
+{@type:function_bool}
 SetBarMode(1);// XQ: DirectionMovement(14)
 
 input: Length(numeric);
