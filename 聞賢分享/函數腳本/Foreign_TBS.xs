@@ -1,4 +1,4 @@
-{@type:function|@guid:6715dd64361641c3867b215accb9ce15}
+{@type:function}
 // 外資多空
 setbarmode(1);
 input:Length(numeric,"計算天數");

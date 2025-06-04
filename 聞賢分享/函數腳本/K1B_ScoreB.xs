@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:a6966848b7f74a4088698d35a7d7e8d6}
+{@type:function_bool}
 SetBarMode(1);//score計分 .......
 input: ratio1(numeric); SetInputName(1, "參數");  //5
 input: Period1(numeric); SetInputName(2, "天期");//7

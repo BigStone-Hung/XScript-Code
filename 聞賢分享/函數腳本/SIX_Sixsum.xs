@@ -1,4 +1,4 @@
-{@type:function|@guid:4ecd96ff8a044a38acb010037a9b84bf}
+{@type:function}
 // XQ: MFI指標
 SetBarMode(2);
 input: ratio1(numeric); SetInputName(1, "DMI參數");  //5

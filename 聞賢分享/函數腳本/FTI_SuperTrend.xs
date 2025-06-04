@@ -1,4 +1,4 @@
-{@type:function|@guid:4350d898e5974c49ae9f76db9935466b}
+{@type:function}
 // XQ: 費雪指標_超級趨勢
 SetBarMode(2);
 input: ratio1(numeric); SetInputName(1, "參數");  //ATRLength(numeric), // 10

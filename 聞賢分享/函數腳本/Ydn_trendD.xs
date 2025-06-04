@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:bfbcb120d5704fdb87e89f6f0b675e80}
+{@type:function_bool}
 SetBarMode(0);// XQ: 外盤動能V型E5
 input: ratio1(numeric); SetInputName(1, "DMI參數");
 input: Period1(numeric); SetInputName(2, "天期");

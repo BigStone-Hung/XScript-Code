@@ -1,4 +1,4 @@
-{@type:function_bool|@guid:7a954c62810742fc87f6d93ac8a0fcef}
+{@type:function_bool}
 value1 = getField("融券餘額張數");
 Value2 = getField("除權息日期");
 value3=getbaroffset(dateadd(GetField("除權息日期"),"D",-1));

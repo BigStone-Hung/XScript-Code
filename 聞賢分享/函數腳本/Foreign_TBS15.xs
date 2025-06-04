@@ -1,4 +1,4 @@
-{@type:function|@guid:097ccd515ae24a3bbd539b335566c090}
+{@type:function}
 // 外資多空
 setbarmode(1);
 if barfreq <> "D" then raiseruntimeerror("僅支援日頻率");
