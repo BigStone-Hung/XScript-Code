@@ -1,4 +1,4 @@
-{@type:filter|@guid:7be19564c3684b7695ba0f9d841fc505}
+{@type:filter}
 //score計分 .......
 settotalbar(100);
 
