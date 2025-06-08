@@ -1,4 +1,4 @@
-{@type:filter|@guid:e02cb06cf7e44697a08383f52b18aa8c}
+{@type:filter}
 // XQ: MA-Osc
 input: Length1(5, "短週期"), Length2(10, "長週期");
 

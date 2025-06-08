@@ -1,4 +1,4 @@
-{@type:filter|@guid:37daf4216a2c45ea8c4b8ee97a36da16}
+{@type:filter}
 var: myNum(5); //數值變數的宣告
 var: myStr(""); //字串變數的宣告
 var: myBoolean(true); //布林值變數的宣告
