@@ -1,6 +1,6 @@
 {@type:filter}
-input:length(20); 	setinputname(1, "計算期間");
-input:percent(7); 	setinputname(2, "設定盤整區間%");
+input:length(20, "計算期間");
+input:percent(7, "設定盤整區間%");
 
 SetTotalBar(3);
 

@@ -1,6 +1,6 @@
 {@type:filter}
-input:day(3);			setinputname(1,"幾天內未站回");
-input:length(20);		setinputname(2,"移動平均線期別");
+input:day(3,"幾天內未站回");
+input:length(20,"移動平均線期別");
 
 settotalbar(length + 3);
 

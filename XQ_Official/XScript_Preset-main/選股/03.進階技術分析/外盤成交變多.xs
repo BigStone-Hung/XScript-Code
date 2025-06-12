@@ -1,7 +1,7 @@
 {@type:filter}
-input:shortPeriod(5);		setinputname(1,"短期平均");
-input:midPeriod(12);		setinputname(2,"長期平均");
-input:minVolume(2000);		setinputname(3,"成交量門檻");
+input:shortPeriod(5,"短期平均");
+input:midPeriod(12,"長期平均");
+input:minVolume(2000,"成交量門檻");
 
 variable:
 	sVolume(0),

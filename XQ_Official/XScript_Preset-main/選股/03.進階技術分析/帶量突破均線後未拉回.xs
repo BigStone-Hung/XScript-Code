@@ -1,7 +1,7 @@
 {@type:filter}
-input:day(5);		setinputname(1,"幾天內未站回");
-input:length(10);	setinputname(2,"移動平均線期別");
-input:percent(20);	setinputname(3,"突破當日成交量超過均量多少%");
+input:day(5,"幾天內未站回");
+input:length(10,"移動平均線期別");
+input:percent(20,"突破當日成交量超過均量多少%");
 
 SetTotalBar(3);
 

@@ -1,5 +1,5 @@
 {@type:filter}
-input:period(20);		setinputname(1,"計算天期");
+input:period(20,"計算天期");
 
 settotalbar(period * 2 + 3);
 

@@ -1,10 +1,10 @@
 {@type:filter}
-input: shortlength(5); 	setinputname(1,"短期均線期數");
-input: midlength(10); 	setinputname(2,"中期均線期數");
-input: Longlength(20); 	setinputname(3,"長期均線期數");
-input: Percent(2);  	setinputname(4,"均線糾結區間%");
-input: Volpercent(25);  setinputname(5,"放量幅度%");//帶量突破的量是超過最長期的均量多少%
-input: VolLimit(2000); 	setinputname(6,"最小成交量");
+input: shortlength(5,"短期均線期數");
+input: midlength(10,"中期均線期數");
+input: Longlength(20,"長期均線期數");
+input: Percent(2,"均線糾結區間%");
+input: Volpercent(25,"放量幅度%");//帶量突破的量是超過最長期的均量多少%
+input: VolLimit(2000,"最小成交量");
 
 variable: shortaverage(0);
 variable: midaverage(0);

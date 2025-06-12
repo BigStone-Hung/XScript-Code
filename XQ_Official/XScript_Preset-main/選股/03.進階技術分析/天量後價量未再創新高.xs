@@ -1,6 +1,6 @@
 {@type:filter}
-input:XLength(60); 	setinputname(1,"長期大量計算期數");
-input:Length(3); 	setinputname(2,"超過n日價量未再創新高");
+input:XLength(60,"長期大量計算期數");
+input:Length(3,"超過n日價量未再創新高");
 
 variable: PriceHighBar(0),VolumeHighBar(0);
 

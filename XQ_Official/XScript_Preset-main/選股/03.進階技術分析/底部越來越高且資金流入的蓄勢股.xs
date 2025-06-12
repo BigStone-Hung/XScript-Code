@@ -1,5 +1,5 @@
 {@type:filter}
-input:r1(7);		setinputname(1,"近來漲幅上限%");
+input:r1(7,"近來漲幅上限%");
 
 SetTotalBar(8);
 
