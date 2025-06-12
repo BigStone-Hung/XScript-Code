@@ -1,14 +1,12 @@
 {@type:filter}
 // CCI超買
 //
-Input: Length(14), AvgLength(9), OverBought(100);
+Input: Length(14, "期數"), 
+       AvgLength(9, "平滑期數"),
+       OverBought(100, "超買值");
 Variable: cciValue(0), cciMAValue(0);
 
 SetTotalBar(maxlist(AvgLength + Length + 1,6) + 3);
-
-SetInputName(1, "期數");
-SetInputName(2, "平滑期數");
-SetInputName(3, "超買值");
 
 cciValue = CommodityChannel(Length);
 cciMAValue = Average(cciValue, AvgLength);

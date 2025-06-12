@@ -1,9 +1,6 @@
 {@type:filter}
-input:MinCapital(10);
-input:MaxCapital(50); 
-
-SetInputName(1, "最小股本(億)");
-SetInputName(2, "最大股本(億)");
+input:MinCapital(10, "最小股本(億)");
+input:MaxCapital(50, "最大股本(億)");
 
 SetTotalBar(3);
 

@@ -1,9 +1,6 @@
 {@type:filter}
-input:Length(5);
-input:VolumeLimit(500);
- 
-SetInputName(1, "均量天期");
-SetInputName(2, "最小均量");
+input:Length(5, "均量天期");
+input:VolumeLimit(500, "最小均量");
 
 SetTotalBar(3);
 

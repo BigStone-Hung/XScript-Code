@@ -1,13 +1,7 @@
-{@type:filter|@guid:361dc0af605249b395e0522d8a0f3c10}
+{@type:filter}
 {
 進場條件
 該程式主要根據以下四個財務條件進行篩選，挑選符合條件的股票：
-
-
-
-
-最新的稅後淨利成長率大於上一季的稅後淨利成長率：
-進一步排除季報異常波動的公司，確保最新業績仍處於持續增長中
 }
 
 
@@ -24,7 +18,8 @@ condition2 = trueAll(getField("月營收年增率", "M") > 30, 3);
 //確保淨利穩定增長，避免短期業績波動。
 condition3 = trueAll(getField("稅後淨利成長率", "Q") > 10, 2);
 
-
+//條件四、最新的稅後淨利成長率大於上一季的稅後淨利成長率：
+//進一步排除季報異常波動的公司，確保最新業績仍處於持續增長中
 condition4 = getField("稅後淨利成長率", "Q") > getField("稅後淨利成長率", "Q")[1];
 if condition1 and condition2 and condition3 and condition4 then ret = 1;
 

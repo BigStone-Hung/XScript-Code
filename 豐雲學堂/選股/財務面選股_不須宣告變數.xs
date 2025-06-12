@@ -1,4 +1,4 @@
-{@type:filter|@guid:e72002867021451ea09cb98c71a94ac9}
+{@type:filter}
 //財務面選股_不須宣告變數
 
 value1 = highest(getField("月營收", "M")[1], 60);

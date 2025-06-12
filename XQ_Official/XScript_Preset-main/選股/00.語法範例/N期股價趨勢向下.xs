@@ -1,10 +1,9 @@
 {@type:filter}
-input: Period(10, "期別");
+input:N(4, "期別");
+ 
+SetTotalBar(3); 
 
-settotalbar(3);
+if TrueAll(GetField("EPS","Q") < GetField("EPS","Q")[1],N) then ret=1; 
 
-Condition1 = rateofchange(close, period) <= -1 * Period;
-Condition2 = close < close[Period/2];
-Condition3 = close < average(close, period);
-
-ret = condition1 and condition2 and condition3;
+SetOutputName1("EPS(元)(季)"); 
+OutputField1(GetField("EPS","Q")); 
