@@ -1,8 +1,8 @@
 {@type:filter}
-input: period(5);				setinputname(1, "計算期間");
-input: investorLimit(2000);		setinputname(2, "外資持股上限");
-input: ratio(50);				setinputname(3, "主力買張比重(%)");
-input: volLimit(500);			setinputname(4, "成交均量下限");
+input: period(5, "計算期間");
+input: investorLimit(2000, "外資持股上限");
+input: ratio(50, "主力買張比重(%)");
+input: volLimit(500, "成交均量下限");
 
 SetTotalBar(3);
 

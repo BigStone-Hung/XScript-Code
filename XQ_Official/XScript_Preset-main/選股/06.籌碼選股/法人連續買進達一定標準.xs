@@ -1,8 +1,8 @@
 {@type:filter}
-input:day(5);			setinputname(1,"計算天數");
-input:ratio1(40);		setinputname(2,"法人買進張數比例下限(%)");
-input:times(2);			setinputname(3,"達標天數");
-input:volLimit(500);	setinputname(4,"最小成交均量");
+input:day(5,"計算天數");
+input:ratio1(40,"法人買進張數比例下限(%)");
+input:times(2,"達標天數");
+input:volLimit(500,"最小成交均量");
 
 SetTotalBar(day + 3);
 

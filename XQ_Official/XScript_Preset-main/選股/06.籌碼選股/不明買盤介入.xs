@@ -1,6 +1,6 @@
 {@type:filter}
-input:period(5);	setinputname(1,"均線期間");
-input:ratio(30);	setinputname(2,"不明買盤比重%");
+input:period(5,"均線期間");
+input:ratio(30,"不明買盤比重%");
 
 settotalbar(period + 7);
 

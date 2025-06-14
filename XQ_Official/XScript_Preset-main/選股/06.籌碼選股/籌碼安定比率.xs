@@ -1,5 +1,5 @@
 {@type:filter}
-input:r1(60);	setinputname(1,"投信外資及董監合計持股比例下限(%)");
+input:r1(60,"投信外資及董監合計持股比例下限(%)");
 
 SetTotalBar(3);
 

@@ -1,6 +1,6 @@
 {@type:filter}
-input:period(10);	setinputname(1,"計算跌幅區間");
-input:percent1(10);	setinputname(2,"區間最小跌幅");
+input:period(10,"計算跌幅區間");
+input:percent1(10,"區間最小跌幅");
 
 settotalbar(3);
 

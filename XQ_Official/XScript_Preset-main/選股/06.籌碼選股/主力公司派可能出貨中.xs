@@ -1,8 +1,8 @@
 {@type:filter}
-input:Period(5);	setinputname(1,"近期偏弱期間");
-input:Rate1(1000);	setinputname(2,"法人及散戶合計賣出上限");
-input:Rate2(5000);	setinputname(3,"成交量下限");
-input:Ratio(1); 	setinputname(4,"接近低點幅度");
+input:Period(5,"近期偏弱期間");
+input:Rate1(1000,"法人及散戶合計賣出上限");
+input:Rate2(5000,"成交量下限");
+input:Ratio(1,"接近低點幅度");
 
 SetTotalBar(3);
  

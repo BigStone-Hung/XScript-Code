@@ -1,7 +1,7 @@
 {@type:filter}
-input: miniratio(10); 	setinputname(1,"投信買進佔今日總量%");
-input: lv(5000); 		setinputname(2,"投信持股張數上限");
-input: holdratio(10); 	setinputname(3,"投信持股比例上限%");
+input: miniratio(10,"投信買進佔今日總量%");
+input: lv(5000,"投信持股張數上限");
+input: holdratio(10,"投信持股比例上限%");
 
 SetTotalBar(3);
 

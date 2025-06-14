@@ -1,7 +1,7 @@
 {@type:filter}
-input:ratio(30);		setinputname(1,"比例下限(%)");
-input:period(3);		setinputname(2,"計算區間");
-input:volLimit(1000);	setinputname(3,"成交量下限(張)");
+input:ratio(30,"比例下限(%)");
+input:period(3,"計算區間");
+input:volLimit(1000,"成交量下限(張)");
 
 settotalbar(3);
 

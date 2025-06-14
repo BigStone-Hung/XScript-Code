@@ -1,6 +1,6 @@
 {@type:filter}
-input: Length(5); 	setinputname(1,"計算天數");
-input: limit1(20);	setinputname(2,"買超佔成交量比例");
+input: Length(5,"計算天數");
+input: limit1(20,"買超佔成交量比例");
 
 variable: r1(0), volTotal(0),ratio(0);
 

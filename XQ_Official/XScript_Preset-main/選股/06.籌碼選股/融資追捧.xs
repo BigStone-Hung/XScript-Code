@@ -1,6 +1,6 @@
 {@type:filter}
-input: Length(10); setinputname(1,"近期天數");
-input: UpRatio(3.5); setinputname(2, "上漲幅度(%)");
+input: Length(10,"近期天數");
+input: UpRatio(3.5, "上漲幅度(%)");
 
 settotalbar(3);
 

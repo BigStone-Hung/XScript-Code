@@ -1,6 +1,6 @@
 {@type:filter}
-input: n(3);			setinputname(1, "計算期間(週)");
-input: Amount(1000);	setinputname(2, "減少張數(張)");
+input: n(3, "計算期間(週)");
+input: Amount(1000, "減少張數(張)");
 
 SetTotalBar(3);
 

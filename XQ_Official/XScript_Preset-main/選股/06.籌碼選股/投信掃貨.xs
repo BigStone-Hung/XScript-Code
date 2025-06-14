@@ -1,6 +1,6 @@
 {@type:filter}
-input: pastDays(5); 		setinputname(1,"計算天數");
-input: _BuyRatio(10); 		setinputname(2,"買超佔比例(%)");
+input: pastDays(5,"計算天數");
+input: _BuyRatio(10,"買超佔比例(%)");
 
 variable: SumForce(0);
 variable: SumTotalVolume(0);

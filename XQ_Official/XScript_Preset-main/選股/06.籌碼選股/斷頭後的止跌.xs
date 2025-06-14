@@ -1,8 +1,8 @@
 {@type:filter}
 
-input:Length(4); setinputname(1,"計算區間");
-input:DVOL(3000); setinputname(2,"區間融資減少張數");
-input:R1(30);	 setinputname(3,"區間跌幅(%)");	
+input:Length(4,"計算區間");
+input:DVOL(3000,"區間融資減少張數");
+input:R1(30,"區間跌幅(%)");	
 
 SetTotalBar(3);
 

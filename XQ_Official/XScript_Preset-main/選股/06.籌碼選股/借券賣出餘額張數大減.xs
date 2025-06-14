@@ -1,5 +1,5 @@
 {@type:filter}
-input: amount(1000);		setinputname(1, "減少張數");
+input: amount(1000, "減少張數");
 
 SetTotalBar(3);
 

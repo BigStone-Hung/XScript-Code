@@ -1,6 +1,6 @@
 {@type:filter}
-input: r1(15);				setinputname(1,"籌碼收集比例(%)");
-input: volLimit(1000);		setinputname(2,"成交量下限(張)");
+input: r1(15,"籌碼收集比例(%)");
+input: volLimit(1000,"成交量下限(張)");
 
 settotalbar(3);
 

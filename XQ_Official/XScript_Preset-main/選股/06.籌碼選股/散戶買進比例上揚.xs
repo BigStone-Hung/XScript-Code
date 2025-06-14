@@ -1,6 +1,6 @@
 {@type:filter}
-Input: r1(50);	setinputname(1, "散戶買進比例下限(%)");
-Input: r2(500);	setinputname(2, "五日均量下限(張)");
+Input: r1(50, "散戶買進比例下限(%)");
+Input: r2(500, "五日均量下限(張)");
 
 SetTotalBar(28);
 

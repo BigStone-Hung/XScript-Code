@@ -1,6 +1,6 @@
 {@type:filter}
-input: v1(2000);	setinputname(1, "投信估計持股上限(張)");
-input: v2(300);		setinputname(2, "近一日買賣超(張)");
+input: v1(2000, "投信估計持股上限(張)");
+input: v2(300, "近一日買賣超(張)");
 
 value1=GetField("投信持股","D");
 value2=GetField("投信買賣超","D");

@@ -1,7 +1,7 @@
 {@type:filter}
-input: r1(500);		setinputname(1,"先前買超上限張數");
-input: r2(5000);	setinputname(2,"近一日買超金額下限(萬元)");
-input: length(20);	setinputname(3,"投信布局天數");
+input: r1(500,"先前買超上限張數");
+input: r2(5000,"近一日買超金額下限(萬元)");
+input: length(20,"投信布局天數");
 
 setTotalBar(3);
 

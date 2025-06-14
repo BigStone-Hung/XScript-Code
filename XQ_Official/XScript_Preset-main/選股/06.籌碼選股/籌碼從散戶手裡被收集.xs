@@ -1,6 +1,6 @@
 {@type:filter}
-input:ratio(200);		setinputname(1,"控盤者買張除以散戶買張的比例(%)");
-input:volLimit(2000);	setinputname(2,"成交量下限(張)");
+input:ratio(200,"控盤者買張除以散戶買張的比例(%)");
+input:volLimit(2000,"成交量下限(張)");
 
 settotalbar(3);
 

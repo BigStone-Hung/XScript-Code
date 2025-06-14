@@ -1,6 +1,6 @@
 {@type:filter}
-input: period(80);		setinputname(1, "計算區間");
-input: v1(3000);		setinputname(2, "融資減少張數");
+input: period(80, "計算區間");
+input: v1(3000, "融資減少張數");
 
 SetTotalBar(3);
 
