@@ -1,7 +1,6 @@
 {@type:filter}
 input:lowlimit(20);//單位:%
-variable:FEPS(0);
-setinputname(1,"成長百分比");
+variable:FEPS(0,"成長百分比");
 
 value1=GetField("月營收","M");//億
 value2=GetField("營業利益率","Q");

@@ -1,6 +1,6 @@
 {@type:filter}
-input: months(24);	setinputname(1, "月營收計算期間(月)");
-input: quarters(16);setinputname(2, "營業毛利率計算期間(季)");
+input: months(24, "月營收計算期間(月)");
+input: quarters(16, "營業毛利率計算期間(季)");
 
 settotalbar(3);
 

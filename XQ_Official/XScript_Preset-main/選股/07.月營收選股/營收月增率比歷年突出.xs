@@ -1,6 +1,6 @@
 {@type:filter}
-input:r1(5);		setinputname(1,"月營收月增幅與過往三年的數字增加百分比(%)");
-//input:TXT("僅適用月線"); setinputname(2,"使用限制");
+input:r1(5,"月營收月增幅與過往三年的數字增加百分比(%)");
+//input:TXT("僅適用月線","使用限制");
 setbarfreq("M");
 
 If barfreq <> "M" then raiseruntimeerror("頻率設定有誤");
