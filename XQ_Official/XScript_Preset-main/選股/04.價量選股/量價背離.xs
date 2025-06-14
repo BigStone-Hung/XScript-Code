@@ -1,5 +1,5 @@
 {@type:filter}
-input:length(10);		setinputname(1,"計算區間");
+input:length(10,"計算區間");
 
 settotalbar(length + 3);
 

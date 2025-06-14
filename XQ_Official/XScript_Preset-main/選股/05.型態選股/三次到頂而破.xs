@@ -1,6 +1,6 @@
 {@type:filter}
-input: BoxRangePercents(7); setinputname(1,"定義整理區間幅度");
-input: HighAreaPercents(1.5); setinputname(2,"定義區間高檔範圍");
+input: BoxRangePercents(7,"定義整理區間幅度");
+input: HighAreaPercents(1.5,"定義區間高檔範圍");
 variable: BoxHigh(0);
 
 variable:period(10),MaxPeriod(40);

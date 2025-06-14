@@ -1,7 +1,7 @@
 {@type:filter}
-input: Length(100);		Setinputname(1, "區間");
-input: UpRatio(2);		SetInputName(2, "當日上漲幅度%");
-input: VolLimit(300);	SetInputName(3, "當日成交量下限");
+input: Length(100, "區間");
+input: UpRatio(2, "當日上漲幅度%");
+input: VolLimit(300, "當日成交量下限");
 
 variable: hDate(date),day(0),KeyPrice(0),HighPrice(0);
 

@@ -1,6 +1,6 @@
 {@type:filter}
-input:Length(20); 		setinputname(1,"下降趨勢計算期數");
-input:VolLimit(1000);	setinputname(2,"突破量");
+input:Length(20,"下降趨勢計算期數");
+input:VolLimit(1000,"突破量");
 
 variable: kk(0);
 

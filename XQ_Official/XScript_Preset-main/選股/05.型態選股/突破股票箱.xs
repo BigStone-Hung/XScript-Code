@@ -1,6 +1,6 @@
 {@type:filter}
-input:length(12);		setinputname(1, "股票箱區間長度");
-input:boxrange(10);		setinputname(2, "箱區高低範圍(%)");
+input:length(12, "股票箱區間長度");
+input:boxrange(10, "箱區高低範圍(%)");
 	
 settotalbar(3);	
 	

@@ -1,6 +1,6 @@
 {@type:filter}
-input: Length(100);		setinputname(1,"計算期數");
-input: RRatio(100);		setinputname(2,"盤漲最大漲幅%");
+input: Length(100,"計算期數");
+input: RRatio(100,"盤漲最大漲幅%");
 
 settotalbar(3);
 

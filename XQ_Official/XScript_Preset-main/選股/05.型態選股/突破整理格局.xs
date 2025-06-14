@@ -1,8 +1,8 @@
 {@type:filter}
-input:limit1(7);		setinputname(1,"定義整理的區間幅度");
-input:limit2(2);		setinputname(2,"定義三個頂點間的差距");
-input:rangemax(30);		setinputname(3,"整理區間最長日期限制");
-input:vollimit(500);	setinputname(4,"突破時成交量最小值");
+input:limit1(7,"定義整理的區間幅度");
+input:limit2(2,"定義三個頂點間的差距");
+input:rangemax(30,"整理區間最長日期限制");
+input:vollimit(500,"突破時成交量最小值");
 
 variable: period(0);
 
