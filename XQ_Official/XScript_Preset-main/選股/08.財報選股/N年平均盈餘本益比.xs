@@ -1,6 +1,6 @@
 {@type:filter}
-input:r1(10);		setinputname(1,"本益比上限");
-input:years(8);		setinputname(2,"計算期間(年)");
+input:r1(10,"本益比上限");
+input:years(8,"計算期間(年)");
 
 settotalbar(3);
 

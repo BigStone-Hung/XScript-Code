@@ -1,5 +1,5 @@
 {@type:filter}
-input:n(5);						setinputname(1,"研發費用市值比");
+input:n(5,"研發費用市值比");
 
 settotalbar(3);
 

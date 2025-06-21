@@ -1,6 +1,6 @@
 {@type:filter}
-input:r1(50);		setinputname(1,"累計營業利益佔總市值比例(%)");
-input:years(10);		setinputname(2,"計算期間(年)");
+input:r1(50,"累計營業利益佔總市值比例(%)");
+input:years(10,"計算期間(年)");
 
 settotalbar(3);
 

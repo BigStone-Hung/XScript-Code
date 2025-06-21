@@ -1,5 +1,5 @@
 {@type:filter}
-input:r1(5);	setinputname(1,"利息支出佔股本比例(%)");
+input:r1(5,"利息支出佔股本比例(%)");
 
 settotalbar(3);
 

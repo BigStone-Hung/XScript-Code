@@ -1,5 +1,5 @@
 {@type:filter}
-input:r1(1);	setinputname(1,"PEG上限");
+input:r1(1,"PEG上限");
 
 settotalbar(3);
 

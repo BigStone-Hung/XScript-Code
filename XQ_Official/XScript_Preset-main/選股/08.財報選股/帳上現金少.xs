@@ -1,5 +1,5 @@
 {@type:filter}
-input:r1(50);	setinputname(1,"帳上現金(單位:百萬元)");
+input:r1(50,"帳上現金(單位:百萬元)");
 
 settotalbar(3);
 

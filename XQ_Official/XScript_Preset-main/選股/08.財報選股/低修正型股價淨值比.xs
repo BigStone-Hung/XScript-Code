@@ -1,5 +1,5 @@
 {@type:filter}
-input:r1(1);		setinputname(1,"股價淨值比上限");
+input:r1(1,"股價淨值比上限");
 
 SetTotalBar(3);
 
