@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:f635fed9332b44159fe1b9994ed052ed}
 VALUE1=GetField("稅前息前淨利", "Q")-GetField("營業外收入及支出", "Q");
 VALUE3=GetField("營運資金","Q")+GetField("固定資產","Q");
 CONDITION1=leftstr(symbol,2)<>"28" and leftstr(symbol,2)<>"58";

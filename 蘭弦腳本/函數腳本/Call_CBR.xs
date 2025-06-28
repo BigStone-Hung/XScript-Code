@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:369fb3d001f8438f813c610a1a85a199}
 If symbol="1101.TW" then Call_CBR=0.00;
 If symbol="1316.TW" then Call_CBR=66.50;
 If symbol="1316.TW" then Call_CBR=0.00;

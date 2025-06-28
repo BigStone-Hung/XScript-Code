@@ -1,9 +1,8 @@
-{@type:function}
+{@type:function|@guid:99785008f4324b0981b51eadcf571480}
 //setbarfreq("Q");
 settotalbar(9);
 		value400=GetField("每股稅後淨利(元)","Q");
-		value401=Iff(GetField("營業外收入合計","Q")>0,iff(GetField("稅前淨利","Q")>GetField("營業外收入合計","Q"),
-		         GetField("營業利益","Q"),0.01),maxlist(GetField("營業利益","Q"),GetField("稅前淨利","Q")));
+		value401=Iff(GetField("營業外收入合計","Q")>0,iff(GetField("稅前淨利","Q")>GetField("營業外收入合計","Q"),GetField("營業利益","Q"),0.01),maxlist(GetField("營業利益","Q"),GetField("稅前淨利","Q")));
 		value402=Iff(GetField("稅前淨利","Q")>0,value401/GetField("稅前淨利","Q"),1);
 		If value402>1.1 then value403=1.1 else value403=value402;
 		value404=close/(GetField("每股稅後淨利(元)","Q")*4*value403);

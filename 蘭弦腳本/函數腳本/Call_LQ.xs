@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:3486fb57b4144a018750ed0409590175}
 settotalBar(10);
 variable:I(0);
 I=0;

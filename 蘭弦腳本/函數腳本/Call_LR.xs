@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:cd101f526c7f494cb574920087001066}
 variable:I(0);
 	value1=absvalue(average(GetField("資本支出金額"),3));
 	value2=absvalue(average(GetField("資本支出金額"),8));

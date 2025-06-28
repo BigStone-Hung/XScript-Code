@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:bbe04d6c19054987bf0e9814739aff6f}
 Var:I(0);
 value1=GetField("主力買張","D")[1]+GetField("控盤者買張","D")[1];
 value2=0;
