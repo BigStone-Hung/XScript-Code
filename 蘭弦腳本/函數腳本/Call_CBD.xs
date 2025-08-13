@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:1f412fb733944aacbacb93366981c872}
 If symbol="1101.TW" then Call_CBD=20241210;
 If symbol="1316.TW" then Call_CBD=20210129;
 If symbol="1316.TW" then Call_CBD=20241227;

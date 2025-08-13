@@ -1,4 +1,4 @@
-{@type:function}
+{@type:function|@guid:befd7456e0ae4544924aaca17fc2ba0f}
 If symbol="1101.TW" then Call_CBP=36.5;
 If symbol="1316.TW" then Call_CBP=15;
 If symbol="1316.TW" then Call_CBP=17.8;
