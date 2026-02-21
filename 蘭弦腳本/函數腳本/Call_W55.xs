@@ -1,2 +1,2 @@
-{@type:function|@guid:785ab1945b7c42e79dedf66e4348cc7d}
+{@type:function|@guid:8cedbcb1c8cd491992910f1b2f507882}
 Call_W55=PercentR(55) - 50;

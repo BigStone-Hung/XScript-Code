@@ -1,5 +1,5 @@
 {@type:function|@guid:3486fb57b4144a018750ed0409590175}
-settotalBar(10);
+settotalBar(13);
 variable:I(0);
 I=0;
 value1=absvalue(average(GetField("資本支出金額","Q"),3));
@@ -41,4 +41,5 @@ then I+=1;
 																			//14
 If value1>value2 then I+=1;	 													//15
 Call_LQ=I;
+
 
