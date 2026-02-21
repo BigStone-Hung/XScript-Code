@@ -1,0 +1,4 @@
+{@type:function|@guid:7398a841b69c483a8890f3c0a7a95cf8}
+VALUE1=GetField("均價");
+VALUE2=EMA(VALUE1,13);
+Call_VV=IFF(VALUE2>0,((VALUE1-VALUE2)/VALUE2)*100,0);
